@@ -1,0 +1,18 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar", 
+        "javafx-sdk-25.0.1/lib/**/*.jar" 
+    ],
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.test.config": {
+        "workingDirectory": "${workspaceFolder}",
+        "vmArgs": [],
+        "env": {},
+        "include": [
+            "src/test/java"
+        ],
+        "exclude": []
+    }
+}

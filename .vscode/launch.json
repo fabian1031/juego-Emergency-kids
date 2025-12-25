@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "vmArgs": [
+                "--module-path",
+                "javafx-sdk-25.0.1/lib",
+                "--add-modules",
+                "javafx.controls,javafx.fxml",
+                "--enable-native-access=javafx.graphics",
+                "-Djava.library.path=javafx-sdk-25.0.1/bin"
+            ]
+        }
+    ]
+}
